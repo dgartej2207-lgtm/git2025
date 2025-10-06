@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE superheroes [
+<!ELEMENT superheroes ANY>
+<!ELEMENT superheroe (#PCDATA)>
+]>
+<superheroes>
+    <superheroe/>
+    <superheroe>Thor</superheroe>
+    <superheroe>Iron Man</superheroe>
+</superheroes>

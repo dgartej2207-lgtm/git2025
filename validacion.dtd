@@ -1,0 +1,13 @@
+1.
+<!ELEMENT numeros (numero)>
+<!ELEMENT numero (#PCDATA)>
+
+2.
+<!ELEMENT letras (letra+)> 
+<!ELEMENT letra (#PCDATA)>
+
+3.
+<!ELEMENT flores (flor*)>
+<!ELEMENT flor (#PCDATA)>
+
+4.
