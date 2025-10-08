@@ -11,3 +11,32 @@
 <!ELEMENT flor (#PCDATA)>
 
 4.
+ <!ELEMENT animales (animal*)>
+  <!ELEMENT animal (#PCDATA)>
+
+5.
+<!ELEMENT escritores (escritor*)> 
+<!ELEMENT escritor (nombre, nacimiento)>
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT nacimiento (#PCDATA)>
+
+6.
+<!ELEMENT musicos (musico*)>
+<!ELEMENT musico ((nombre | apodo), fechaNacimiento)>
+<!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT apodo (#PCDATA)> 
+<!ELEMENT fechaNacimiento (#PCDATA)>
+
+7.
+<!ELEMENT agenda (contacto*)>
+<!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)> 
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT telefonoFijo (#PCDATA)> 
+<!ELEMENT telefonoMovil (#PCDATA)>
+
+8.
+<!ELEMENT sistemaSolar (cuerpo*)> 
+<!ELEMENT cuerpo (planeta|satelite|asteroide)>
+<!ELEMENT planeta (#PCDATA)> 
+<!ELEMENT satelite (#PCDATA)> 
+<!ELEMENT asteroide (#PCDATA)>
