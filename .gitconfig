@@ -1,0 +1,5 @@
+[user]
+	name = Darío García Tejero
+	email = dgartej2207@iesmarquesdecomares.org
+[alias]
+	tree = log --graph --decorate --all --oneline
